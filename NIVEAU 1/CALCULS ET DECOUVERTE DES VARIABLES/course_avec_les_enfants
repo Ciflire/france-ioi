@@ -1,0 +1,8 @@
+from robot import *
+for n in range(10):
+    for i in range(n+1):
+        droite()
+    ramasser()
+    for j in range(n+1):
+        gauche()
+    deposer()
